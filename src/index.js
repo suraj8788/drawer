@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ResponsiveDrawer from "./ResponsiveDrawer";
+import MuiT from "./MuiT"
+import RecipeReviewCard from "./RecipeReviewCard"
+import StandardImageList from "./StandardImageList";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ResponsiveDrawer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
